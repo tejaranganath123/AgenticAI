@@ -1,3 +1,10 @@
 ipykernel
 langchain
 openai
+python-dotenv
+langchain-openai
+langchain-community
+pypdf
+bs4
+arxiv
+pymupdf
