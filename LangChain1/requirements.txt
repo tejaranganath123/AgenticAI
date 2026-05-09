@@ -14,3 +14,10 @@ sentence_transformers
 langchain_huggingface
 faiss-cpu
 langchain_chroma
+beautifulsoup4
+langchain-ollama
+langchain-openai
+streamlit
+torchvision
+torch 
+torchaudio
