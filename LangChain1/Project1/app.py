@@ -16,11 +16,8 @@ logging.getLogger("transformers").setLevel(logging.ERROR)
 
 load_dotenv()
 
-## Langsmith Tracking
-os.environ["LANGSMITH_TRACING"] = "true"
-os.environ["LANGSMITH_ENDPOINT"] = "https://api.smith.langchain.com"    
-os.environ["LANGSMITH_API_KEY"] = "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"
-os.environ["LANGSMITH_PROJECT"] = "Test"
+## Langsmith Tracking - get these  while running the code to track the interactions with the model in langsmith dashboard
+
 
 ## Prompt Template
 prompt=ChatPromptTemplate.from_messages(
